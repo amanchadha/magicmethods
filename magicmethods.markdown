@@ -686,7 +686,7 @@ Pickling is so important that it doesn't just have its own module (`pickle`), bu
 
 ###Pickling: A Quick Soak in the Brine###
 
-Let's dive into pickling. Say you have a dictionary that you want to store and retrieve later. You couldwrite it's contents to a file, carefully making sure that you write correct syntax, then retrieve it using either `exec()` or processing the file input. But this is precarious at best: if you store important data in plain text, it could be corrupted or changed in any number of ways to make your program crash or worse run malicious code on your computer. Instead, we're going to pickle it:
+Let's dive into pickling. Say you have a dictionary that you want to store and retrieve later. You could write its contents to a file, carefully making sure that you write correct syntax, then retrieve it using either `exec()` or processing the file input. But this is precarious at best: if you store important data in plain text, it could be corrupted or changed in any number of ways to make your program crash or worse run malicious code on your computer. Instead, we're going to pickle it:
 
     :::python
     import pickle
